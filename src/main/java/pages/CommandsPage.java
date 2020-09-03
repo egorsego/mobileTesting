@@ -8,10 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class CommandsPage extends BasePage {
 
-    private AndroidDriver driver;
-
     public CommandsPage(AndroidDriver driver) {
-        this.driver = driver;
+        super(driver);
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
@@ -24,9 +22,6 @@ public class CommandsPage extends BasePage {
     @AndroidFindBy(xpath = "//*[@content-desc='Print X Report']")
     private AndroidElement printXReportBtn;
 
-
-
-
     @AndroidFindBy(xpath = "//*[@content-desc='Open Shift']")
     private AndroidElement openShiftBtn;
 
@@ -35,4 +30,16 @@ public class CommandsPage extends BasePage {
 
     @AndroidFindBy(xpath = "//*[@content-desc='Close Shift']")
     private AndroidElement closeShiftBtn;
+
+
+    public ConnectionPage openConnectionPage() throws InterruptedException {
+        this.tapOnElement(connectionTab, 1);
+        return new ConnectionPage(driver);
+    }
+
+    public CommandsPage reOpen() throws InterruptedException {
+        this.tapOnElement(commandsTab, 1);
+        return this;
+    }
+
 }
