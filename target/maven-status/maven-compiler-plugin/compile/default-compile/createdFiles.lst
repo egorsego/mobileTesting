@@ -1,0 +1,5 @@
+pages\BasePage.class
+pages\ConnectionPage.class
+tests\BaseTest.class
+tests\FirstTest.class
+pages\CommandsPage.class

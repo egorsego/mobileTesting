@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-29T22:52:46 MSK" name="AppTests" finished-at="2020-09-29T22:53:36 MSK" duration-ms="50826">
+    <groups>
+    </groups>
+    <test started-at="2020-09-29T22:52:46 MSK" name="app" finished-at="2020-09-29T22:53:36 MSK" duration-ms="50826">
+      <class name="tests.FirstTest">
+        <test-method is-config="true" signature="globalSetup()[pri:0, instance:tests.FirstTest@7d898981]" started-at="2020-09-29T22:52:44 MSK" name="globalSetup" finished-at="2020-09-29T22:52:46 MSK" duration-ms="1679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FirstTest@7d898981]" started-at="2020-09-29T22:52:46 MSK" name="setUp" finished-at="2020-09-29T22:53:00 MSK" duration-ms="14454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="changeIpAddressValue()[pri:0, instance:tests.FirstTest@7d898981]" started-at="2020-09-29T22:53:00 MSK" name="changeIpAddressValue" finished-at="2020-09-29T22:53:18 MSK" duration-ms="18160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeIpAddressValue -->
+        <test-method is-config="true" signature="returnToInitialState()[pri:0, instance:tests.FirstTest@7d898981]" started-at="2020-09-29T22:53:18 MSK" name="returnToInitialState" finished-at="2020-09-29T22:53:20 MSK" duration-ms="1254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnToInitialState -->
+        <test-method signature="changePortValue()[pri:0, instance:tests.FirstTest@7d898981]" started-at="2020-09-29T22:53:20 MSK" name="changePortValue" finished-at="2020-09-29T22:53:28 MSK" duration-ms="8568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePortValue -->
+        <test-method is-config="true" signature="returnToInitialState()[pri:0, instance:tests.FirstTest@7d898981]" started-at="2020-09-29T22:53:28 MSK" name="returnToInitialState" finished-at="2020-09-29T22:53:29 MSK" duration-ms="1250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnToInitialState -->
+        <test-method signature="switchToCommandsScreen()[pri:0, instance:tests.FirstTest@7d898981]" started-at="2020-09-29T22:53:29 MSK" name="switchToCommandsScreen" finished-at="2020-09-29T22:53:32 MSK" duration-ms="2856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToCommandsScreen -->
+        <test-method is-config="true" signature="returnToInitialState()[pri:0, instance:tests.FirstTest@7d898981]" started-at="2020-09-29T22:53:32 MSK" name="returnToInitialState" finished-at="2020-09-29T22:53:33 MSK" duration-ms="1260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnToInitialState -->
+        <test-method signature="switchToConnectionScreen()[pri:0, instance:tests.FirstTest@7d898981]" started-at="2020-09-29T22:53:33 MSK" name="switchToConnectionScreen" finished-at="2020-09-29T22:53:35 MSK" duration-ms="1445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToConnectionScreen -->
+        <test-method is-config="true" signature="returnToInitialState()[pri:0, instance:tests.FirstTest@7d898981]" started-at="2020-09-29T22:53:35 MSK" name="returnToInitialState" finished-at="2020-09-29T22:53:36 MSK" duration-ms="1227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnToInitialState -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FirstTest@7d898981]" started-at="2020-09-29T22:53:36 MSK" name="tearDown" finished-at="2020-09-29T22:53:36 MSK" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="globalTearDown()[pri:0, instance:tests.FirstTest@7d898981]" started-at="2020-09-29T22:53:37 MSK" name="globalTearDown" finished-at="2020-09-29T22:53:37 MSK" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalTearDown -->
+      </class> <!-- tests.FirstTest -->
+    </test> <!-- app -->
+  </suite> <!-- AppTests -->
+</testng-results>
